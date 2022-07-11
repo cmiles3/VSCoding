@@ -3,4 +3,4 @@
 
 let heroPool = ['Lucy', 'Hannah', 'Curtis']
 
-console.log('The main hero is:  ' + heroPool[1]);
+console.log('The main hero is:  ' + heroPool[0]);
