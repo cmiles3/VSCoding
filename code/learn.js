@@ -1,2 +1,2 @@
-// ready to practice - Basic Arrays
+// ready to practice
 //
