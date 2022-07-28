@@ -25,5 +25,23 @@ function lotPick (p1, p2, p3) {
 console.log(lotPick(1, 5, 3));
 
 //console.log(lotArr);
+*/
 
+
+// MEGA MILLION
+
+// let x = Math.floor(Math.random() * 10 + 1);
+// console.log('This is X:  ' + x);
+console.log(Math.floor(Math.random() * 100 + 1));
+
+
+/*
+function getRando()  {
+    let min = 0;
+    let max = 10;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return  Math.floor(Math.random() * (max - min + 1) + min);
+  }
+console.log(getRando());
 */
