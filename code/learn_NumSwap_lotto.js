@@ -45,3 +45,12 @@ function getRando()  {
   }
 console.log(getRando());
 */
+var pix = [];
+var pick = 0;
+while (pick <= 5) {
+    console.log(pick);
+    pick++
+
+}
+// console.log(pix);
+// ** BROKEN ** Trying to create a loop that will generate an array of 5 values, then eventually populate that array with the random numbers generated above.
