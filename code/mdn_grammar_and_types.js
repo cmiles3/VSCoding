@@ -124,5 +124,86 @@ if (5 == 4) {
 
 // Converting Strings to Numbers
 // When a value representing a number is in memory as a string.
+// First number in the argument is the string to be converted into a number
+// Second number in the argument is the base (2-Binary, 8-Octal, 10-Decimal, 16-Hexadecimal, etc.)
+
+console.log(parseInt('22')); // Returns the integer 22 as a number, not a string.
+console.log(parseInt('101', 2) // Returns 5 as the integer which is base 2 (Binary) of the string number 101.
+
+// The parseInt() function parses a string argument and returns an integer of the specified radix (radix is the base in mathematical numeral systems).
+function roughScale(x, base) {
+  const parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0; }
+  return parsed * 100;
+}
+console.log(roughScale(' 0xF', 16));
+// expected output: 1500
+console.log(roughScale('321', 2));
+// expected output: 0
+
+
+// The parseFloat() function parses an argument (converting it to a string first if needed) and returns a floating point number.
+function circumference(r) {
+  return parseFloat(r) * 2.0 * Math.PI;
+}
+console.log(circumference(4.567));
+// expected output: 28.695307297889173
+console.log(circumference('4.567abcdefgh'));
+// expected output: 28.695307297889173
+console.log(circumference('abcdefgh'));
+// expected output: NaN
+
+// UNRELATED - Example of how to get a random number:
+console.log(Math.floor(Math.random() * 11));
+
+
+// Working with LITERALS
+// - ARRAY - Literals
+
+// The .map() function creates a new array w/ the callback function argument, applied to a selected array.
+const array1 = [1,4,9,16];
+console.log(array1);
+const map1 = array1.map(x => x * 2);
+console.log(map1);
+
+let fish = ['lion', 'tiger', 'bear'];
+console.log(fish);
+let fishX = fish.map(x => x + ' food');
+console.log(fishX);
+
+
+// - OBJECT - Literals
+
+// The following is an example of an object literal.
+// The first element of the car object defines a property, myCar,
+// and assigns to it a new string, "Saturn"; the second element,
+// the getCar property, is immediately assigned the result of invoking
+// the function (carTypes("Honda")); the third element, the special property,
+// uses an existing variable (sales).
+
+const sales = 'Toyota';
+function carTypes(name) {
+  if (name === 'Honda') {
+    return name;
+  } else {
+    return "Sorry, we don't sell ", name, ".";
+  }
+}
+const car = { myCar: 'Saturn', getCar: carTypes('Honda'), special: sales};
+
+console.log(car.myCar);
+console.log(car.getCar);
+console.log(car.special);
+
+// Additionally, you can use a numeric or string literal for the name
+// of a property or nest an object inside another. The following example
+// uses these options.
+
+const car = { manyCars: { a: 'Saab', b: 'Jeep' }, 7: 'Mazda' };
+
+console.log(car.manyCars.b); // Jeep
+console.log(car[7]); // Mazda
 
 */
+
+// END of what I plan to note in code - On to the next learning segment
