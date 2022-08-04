@@ -39,4 +39,3 @@ if (2 == 8) {
     console.log("We are done here")
 }
 */
-// Left off at Falsy values
