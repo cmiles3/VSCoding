@@ -25,6 +25,9 @@ while (x < 10) {
 //
 // IF...ELSE Statement
 //
+
+*/
+
 if (5 < 10) {
     console.log("That's cool");
 }   else {
@@ -38,5 +41,3 @@ if (2 == 8) {
 }   else {
     console.log("We are done here")
 }
-
-*/
