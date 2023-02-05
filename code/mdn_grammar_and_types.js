@@ -3,7 +3,7 @@
 
 /*
 
-//  Declarations
+///  Declarations
 var xBar; var yBar = 0;
 let canA; let canB = 0;
 const cupA = 1; const cupB = 0;
