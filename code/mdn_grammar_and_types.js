@@ -1,10 +1,11 @@
 //  MDN documentation:
 //  Grammar and Types
 
+/*
 let noodle = 5;
 console.log(noodle);
 
-/*
+
 //  Declarations
 var xBar; var yBar = 0;
 let canA; let canB = 0;
