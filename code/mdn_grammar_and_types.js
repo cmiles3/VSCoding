@@ -179,7 +179,7 @@ console.log(fishX);
 
 // - OBJECT - Literals
 
-// The following is an example of an object literal.
+// The following is a an example of an object literal.
 // The first element of the car object defines a property, myCar,
 // and assigns to it a new string, "Saturn"; the second element,
 // the getCar property, is immediately assigned the result of invoking
