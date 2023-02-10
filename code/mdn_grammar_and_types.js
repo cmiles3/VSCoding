@@ -159,7 +159,7 @@ console.log(circumference('abcdefgh'));
 */
 
 // UNRELATED - Example of how to get a random number:
-console.log(Math.floor(Math.random() * 11));
+console.log(Math.floor(Math.random() * 12));
 
 /*
 // Working with LITERALS
