@@ -156,10 +156,12 @@ console.log(circumference('4.567abcdefgh'));
 console.log(circumference('abcdefgh'));
 // expected output: NaN
 
+*/
+
 // UNRELATED - Example of how to get a random number:
 console.log(Math.floor(Math.random() * 11));
 
-
+/*
 // Working with LITERALS
 // - ARRAY - Literals
 
