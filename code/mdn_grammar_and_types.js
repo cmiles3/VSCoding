@@ -2,6 +2,9 @@
 //  Grammar and Types
 
 /*
+let noodle = 5;
+console.log(noodle);
+
 
 //  Declarations
 var xBar; var yBar = 0;
@@ -153,10 +156,12 @@ console.log(circumference('4.567abcdefgh'));
 console.log(circumference('abcdefgh'));
 // expected output: NaN
 
+*/
+
 // UNRELATED - Example of how to get a random number:
-console.log(Math.floor(Math.random() * 11));
+console.log(Math.floor(Math.random() * 12));
 
-
+/*
 // Working with LITERALS
 // - ARRAY - Literals
 
@@ -174,7 +179,7 @@ console.log(fishX);
 
 // - OBJECT - Literals
 
-// The following is an example of an object literal.
+// The following is a an example of an object literal.
 // The first element of the car object defines a property, myCar,
 // and assigns to it a new string, "Saturn"; the second element,
 // the getCar property, is immediately assigned the result of invoking
@@ -207,3 +212,4 @@ console.log(car[7]); // Mazda
 */
 
 // END of what I plan to note in code - On to the next learning segment
+//
